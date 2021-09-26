@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/dm1tr/Desktop/AoCS/random.h
+
+C:/Users/dm1tr/Desktop/AoCS/truck.cpp
+truck.h
+C:/Users/dm1tr/Desktop/AoCS/truck.h
+random.h
+C:/Users/dm1tr/Desktop/AoCS/random.h
+
+C:/Users/dm1tr/Desktop/AoCS/truck.h
+fstream
+-
+

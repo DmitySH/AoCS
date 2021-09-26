@@ -1,0 +1,3 @@
+Variant number = 70
+Number of task = 14
+Number of function = 5

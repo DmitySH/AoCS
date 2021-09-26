@@ -1,0 +1,2 @@
+Filled container:
+It is truck: maximal weight = 1461, tank volume = 241, consumption = 24.8326. maximal range = 970.498
