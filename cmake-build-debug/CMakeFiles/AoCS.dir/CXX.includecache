@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/dm1tr/Desktop/AoCS/random.h
+C:/Users/dm1tr/Desktop/AoCS/Additional_functions/random.h
 
-C:/Users/dm1tr/Desktop/AoCS/truck.cpp
-truck.h
-C:/Users/dm1tr/Desktop/AoCS/truck.h
-random.h
-C:/Users/dm1tr/Desktop/AoCS/random.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/car.cpp
+car.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/car.h
+../Additional_functions/random.h
+C:/Users/dm1tr/Desktop/AoCS/Additional_functions/random.h
 
-C:/Users/dm1tr/Desktop/AoCS/truck.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/car.h
 fstream
 -
 

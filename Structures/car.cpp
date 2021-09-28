@@ -1,5 +1,5 @@
 #include "car.h"
-#include "random.h"
+#include "../Additional_functions/random.h"
 
 // Ввод параметров автомобиля из файла.
 void In(Car &car, ifstream &ifst) {

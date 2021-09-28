@@ -1,5 +1,5 @@
 #include "bus.h"
-#include "random.h"
+#include "../Additional_functions/random.h"
 
 // Ввод параметров автобуса из файла.
 void In(Bus &bus, ifstream &ifst) {

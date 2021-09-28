@@ -4,7 +4,7 @@
 #include <ctime>
 #include <cstring>
 
-#include "truck.h"
+#include "Structures/truck.h"
 
 // Тестирование.
 int main() {

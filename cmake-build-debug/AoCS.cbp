@@ -80,43 +80,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/bus.cpp">
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Additional_functions/random.cpp">
 			<Option target="AoCS"/>
 		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/bus.h">
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Additional_functions/random.h">
 			<Option target="AoCS"/>
 		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/car.cpp">
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Data_structures/container.cpp">
 			<Option target="AoCS"/>
 		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/car.h">
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Data_structures/container.h">
 			<Option target="AoCS"/>
 		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/container.cpp">
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/bus.cpp">
 			<Option target="AoCS"/>
 		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/container.h">
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/bus.h">
+			<Option target="AoCS"/>
+		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/car.cpp">
+			<Option target="AoCS"/>
+		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/car.h">
+			<Option target="AoCS"/>
+		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/truck.cpp">
+			<Option target="AoCS"/>
+		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/truck.h">
+			<Option target="AoCS"/>
+		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/vehicle.cpp">
+			<Option target="AoCS"/>
+		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Structures/vehicle.h">
 			<Option target="AoCS"/>
 		</Unit>
 		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/main.cpp">
-			<Option target="AoCS"/>
-		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/random.cpp">
-			<Option target="AoCS"/>
-		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/random.h">
-			<Option target="AoCS"/>
-		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/truck.cpp">
-			<Option target="AoCS"/>
-		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/truck.h">
-			<Option target="AoCS"/>
-		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/vehicle.cpp">
-			<Option target="AoCS"/>
-		</Unit>
-		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/vehicle.h">
 			<Option target="AoCS"/>
 		</Unit>
 		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/CMakeLists.txt">

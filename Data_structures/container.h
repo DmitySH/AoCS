@@ -2,7 +2,7 @@
 #define MAIN_CPP_CONTAINER_H
 
 // Описание контейнера.
-#include "vehicle.h"
+#include "../Structures/vehicle.h"
 
 struct Container {
     static const int max_len = 10000;// Максимальная длина.

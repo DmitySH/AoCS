@@ -65,31 +65,31 @@ include CMakeFiles/AoCS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AoCS.dir/flags.make
 
-CMakeFiles/AoCS.dir/random.cpp.obj: CMakeFiles/AoCS.dir/flags.make
-CMakeFiles/AoCS.dir/random.cpp.obj: ../random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AoCS.dir/random.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\random.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\random.cpp
+CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj: CMakeFiles/AoCS.dir/flags.make
+CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj: ../Additional_functions/random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\Additional_functions\random.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Additional_functions\random.cpp
 
-CMakeFiles/AoCS.dir/random.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/random.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\random.cpp > CMakeFiles\AoCS.dir\random.cpp.i
+CMakeFiles/AoCS.dir/Additional_functions/random.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/Additional_functions/random.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Additional_functions\random.cpp > CMakeFiles\AoCS.dir\Additional_functions\random.cpp.i
 
-CMakeFiles/AoCS.dir/random.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/random.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\random.cpp -o CMakeFiles\AoCS.dir\random.cpp.s
+CMakeFiles/AoCS.dir/Additional_functions/random.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/Additional_functions/random.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Additional_functions\random.cpp -o CMakeFiles\AoCS.dir\Additional_functions\random.cpp.s
 
-CMakeFiles/AoCS.dir/truck.cpp.obj: CMakeFiles/AoCS.dir/flags.make
-CMakeFiles/AoCS.dir/truck.cpp.obj: ../truck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AoCS.dir/truck.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\truck.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\truck.cpp
+CMakeFiles/AoCS.dir/Structures/truck.cpp.obj: CMakeFiles/AoCS.dir/flags.make
+CMakeFiles/AoCS.dir/Structures/truck.cpp.obj: ../Structures/truck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AoCS.dir/Structures/truck.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\Structures\truck.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Structures\truck.cpp
 
-CMakeFiles/AoCS.dir/truck.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/truck.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\truck.cpp > CMakeFiles\AoCS.dir\truck.cpp.i
+CMakeFiles/AoCS.dir/Structures/truck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/Structures/truck.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Structures\truck.cpp > CMakeFiles\AoCS.dir\Structures\truck.cpp.i
 
-CMakeFiles/AoCS.dir/truck.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/truck.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\truck.cpp -o CMakeFiles\AoCS.dir\truck.cpp.s
+CMakeFiles/AoCS.dir/Structures/truck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/Structures/truck.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Structures\truck.cpp -o CMakeFiles\AoCS.dir\Structures\truck.cpp.s
 
 CMakeFiles/AoCS.dir/main.cpp.obj: CMakeFiles/AoCS.dir/flags.make
 CMakeFiles/AoCS.dir/main.cpp.obj: ../main.cpp
@@ -104,78 +104,78 @@ CMakeFiles/AoCS.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\main.cpp -o CMakeFiles\AoCS.dir\main.cpp.s
 
-CMakeFiles/AoCS.dir/bus.cpp.obj: CMakeFiles/AoCS.dir/flags.make
-CMakeFiles/AoCS.dir/bus.cpp.obj: ../bus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AoCS.dir/bus.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\bus.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\bus.cpp
+CMakeFiles/AoCS.dir/Structures/bus.cpp.obj: CMakeFiles/AoCS.dir/flags.make
+CMakeFiles/AoCS.dir/Structures/bus.cpp.obj: ../Structures/bus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AoCS.dir/Structures/bus.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\Structures\bus.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Structures\bus.cpp
 
-CMakeFiles/AoCS.dir/bus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/bus.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\bus.cpp > CMakeFiles\AoCS.dir\bus.cpp.i
+CMakeFiles/AoCS.dir/Structures/bus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/Structures/bus.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Structures\bus.cpp > CMakeFiles\AoCS.dir\Structures\bus.cpp.i
 
-CMakeFiles/AoCS.dir/bus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/bus.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\bus.cpp -o CMakeFiles\AoCS.dir\bus.cpp.s
+CMakeFiles/AoCS.dir/Structures/bus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/Structures/bus.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Structures\bus.cpp -o CMakeFiles\AoCS.dir\Structures\bus.cpp.s
 
-CMakeFiles/AoCS.dir/car.cpp.obj: CMakeFiles/AoCS.dir/flags.make
-CMakeFiles/AoCS.dir/car.cpp.obj: ../car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AoCS.dir/car.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\car.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\car.cpp
+CMakeFiles/AoCS.dir/Structures/car.cpp.obj: CMakeFiles/AoCS.dir/flags.make
+CMakeFiles/AoCS.dir/Structures/car.cpp.obj: ../Structures/car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AoCS.dir/Structures/car.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\Structures\car.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Structures\car.cpp
 
-CMakeFiles/AoCS.dir/car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/car.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\car.cpp > CMakeFiles\AoCS.dir\car.cpp.i
+CMakeFiles/AoCS.dir/Structures/car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/Structures/car.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Structures\car.cpp > CMakeFiles\AoCS.dir\Structures\car.cpp.i
 
-CMakeFiles/AoCS.dir/car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/car.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\car.cpp -o CMakeFiles\AoCS.dir\car.cpp.s
+CMakeFiles/AoCS.dir/Structures/car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/Structures/car.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Structures\car.cpp -o CMakeFiles\AoCS.dir\Structures\car.cpp.s
 
-CMakeFiles/AoCS.dir/vehicle.cpp.obj: CMakeFiles/AoCS.dir/flags.make
-CMakeFiles/AoCS.dir/vehicle.cpp.obj: ../vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AoCS.dir/vehicle.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\vehicle.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\vehicle.cpp
+CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj: CMakeFiles/AoCS.dir/flags.make
+CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj: ../Structures/vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\Structures\vehicle.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Structures\vehicle.cpp
 
-CMakeFiles/AoCS.dir/vehicle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/vehicle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\vehicle.cpp > CMakeFiles\AoCS.dir\vehicle.cpp.i
+CMakeFiles/AoCS.dir/Structures/vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/Structures/vehicle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Structures\vehicle.cpp > CMakeFiles\AoCS.dir\Structures\vehicle.cpp.i
 
-CMakeFiles/AoCS.dir/vehicle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/vehicle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\vehicle.cpp -o CMakeFiles\AoCS.dir\vehicle.cpp.s
+CMakeFiles/AoCS.dir/Structures/vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/Structures/vehicle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Structures\vehicle.cpp -o CMakeFiles\AoCS.dir\Structures\vehicle.cpp.s
 
-CMakeFiles/AoCS.dir/container.cpp.obj: CMakeFiles/AoCS.dir/flags.make
-CMakeFiles/AoCS.dir/container.cpp.obj: ../container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AoCS.dir/container.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\container.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\container.cpp
+CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj: CMakeFiles/AoCS.dir/flags.make
+CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj: ../Data_structures/container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AoCS.dir\Data_structures\container.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Data_structures\container.cpp
 
-CMakeFiles/AoCS.dir/container.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/container.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\container.cpp > CMakeFiles\AoCS.dir\container.cpp.i
+CMakeFiles/AoCS.dir/Data_structures/container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AoCS.dir/Data_structures/container.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Data_structures\container.cpp > CMakeFiles\AoCS.dir\Data_structures\container.cpp.i
 
-CMakeFiles/AoCS.dir/container.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/container.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\container.cpp -o CMakeFiles\AoCS.dir\container.cpp.s
+CMakeFiles/AoCS.dir/Data_structures/container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AoCS.dir/Data_structures/container.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Data_structures\container.cpp -o CMakeFiles\AoCS.dir\Data_structures\container.cpp.s
 
 # Object files for target AoCS
 AoCS_OBJECTS = \
-"CMakeFiles/AoCS.dir/random.cpp.obj" \
-"CMakeFiles/AoCS.dir/truck.cpp.obj" \
+"CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj" \
+"CMakeFiles/AoCS.dir/Structures/truck.cpp.obj" \
 "CMakeFiles/AoCS.dir/main.cpp.obj" \
-"CMakeFiles/AoCS.dir/bus.cpp.obj" \
-"CMakeFiles/AoCS.dir/car.cpp.obj" \
-"CMakeFiles/AoCS.dir/vehicle.cpp.obj" \
-"CMakeFiles/AoCS.dir/container.cpp.obj"
+"CMakeFiles/AoCS.dir/Structures/bus.cpp.obj" \
+"CMakeFiles/AoCS.dir/Structures/car.cpp.obj" \
+"CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj" \
+"CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj"
 
 # External object files for target AoCS
 AoCS_EXTERNAL_OBJECTS =
 
-../bin/AoCS.exe: CMakeFiles/AoCS.dir/random.cpp.obj
-../bin/AoCS.exe: CMakeFiles/AoCS.dir/truck.cpp.obj
+../bin/AoCS.exe: CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj
+../bin/AoCS.exe: CMakeFiles/AoCS.dir/Structures/truck.cpp.obj
 ../bin/AoCS.exe: CMakeFiles/AoCS.dir/main.cpp.obj
-../bin/AoCS.exe: CMakeFiles/AoCS.dir/bus.cpp.obj
-../bin/AoCS.exe: CMakeFiles/AoCS.dir/car.cpp.obj
-../bin/AoCS.exe: CMakeFiles/AoCS.dir/vehicle.cpp.obj
-../bin/AoCS.exe: CMakeFiles/AoCS.dir/container.cpp.obj
+../bin/AoCS.exe: CMakeFiles/AoCS.dir/Structures/bus.cpp.obj
+../bin/AoCS.exe: CMakeFiles/AoCS.dir/Structures/car.cpp.obj
+../bin/AoCS.exe: CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj
+../bin/AoCS.exe: CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj
 ../bin/AoCS.exe: CMakeFiles/AoCS.dir/build.make
 ../bin/AoCS.exe: CMakeFiles/AoCS.dir/linklibs.rsp
 ../bin/AoCS.exe: CMakeFiles/AoCS.dir/objects1.rsp

@@ -1,5 +1,5 @@
 #include "truck.h"
-#include "random.h"
+#include "../Additional_functions/random.h"
 
 // Ввод параметров грузовика из файла.
 void In(Truck &truck, ifstream &ifst) {

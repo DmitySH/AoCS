@@ -9,19 +9,20 @@ set(BINARY_DIR "${CMAKE_BINARY_DIR}")
 # Source files list
 set(SOURCE_FILES
         # Headers
-        random.h
-        truck.h
-        bus.h
-        car.h
-        vehicle.h
-        container.h
+        Additional_functions/random.h
+        Structures/truck.h
+        Structures/bus.h
+        Structures/car.h
+        Structures/vehicle.h
+        Data_structures/container.h
+
         # Sources
-        random.cpp
-        truck.cpp
+        Additional_functions/random.cpp
+        Structures/truck.cpp
         main.cpp
-        bus.cpp
-        car.cpp
-        vehicle.cpp
-        container.cpp)
+        Structures/bus.cpp
+        Structures/car.cpp
+        Structures/vehicle.cpp
+        Data_structures/container.cpp)
 
 add_executable(AoCS ${SOURCE_FILES})
