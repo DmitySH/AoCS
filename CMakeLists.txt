@@ -14,13 +14,14 @@ set(SOURCE_FILES
         bus.h
         car.h
         vehicle.h
-
+        container.h
         # Sources
         random.cpp
         truck.cpp
         main.cpp
         bus.cpp
         car.cpp
-        vehicle.cpp)
+        vehicle.cpp
+        container.cpp)
 
 add_executable(AoCS ${SOURCE_FILES})

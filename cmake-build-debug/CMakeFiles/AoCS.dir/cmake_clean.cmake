@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "../bin/AoCS.pdb"
   "CMakeFiles/AoCS.dir/bus.cpp.obj"
   "CMakeFiles/AoCS.dir/car.cpp.obj"
+  "CMakeFiles/AoCS.dir/container.cpp.obj"
   "CMakeFiles/AoCS.dir/main.cpp.obj"
   "CMakeFiles/AoCS.dir/random.cpp.obj"
   "CMakeFiles/AoCS.dir/truck.cpp.obj"

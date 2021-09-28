@@ -176,6 +176,30 @@ car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/car.cpp.s
 .PHONY : car.cpp.s
 
+container.obj: container.cpp.obj
+.PHONY : container.obj
+
+# target to build an object file
+container.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/container.cpp.obj
+.PHONY : container.cpp.obj
+
+container.i: container.cpp.i
+.PHONY : container.i
+
+# target to preprocess a source file
+container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/container.cpp.i
+.PHONY : container.cpp.i
+
+container.s: container.cpp.s
+.PHONY : container.s
+
+# target to generate assembly for a file
+container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/container.cpp.s
+.PHONY : container.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -287,6 +311,9 @@ help:
 	@echo ... car.obj
 	@echo ... car.i
 	@echo ... car.s
+	@echo ... container.obj
+	@echo ... container.i
+	@echo ... container.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

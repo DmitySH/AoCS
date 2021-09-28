@@ -22,4 +22,16 @@ struct Vehicle {
     };
 };
 
+// Ввод обобщенного ТС.
+Vehicle *In(ifstream &ifdt);
+
+// Случайный ввод обобщенного ТС.
+Vehicle *InRnd();
+
+// Вывод обобщенного ТС.
+void Out(Vehicle &vehicle, ofstream &ofst);
+
+// Вычисление максимального расстояния обобщенного ТС.
+double MaxDistance(Vehicle &vehicle);
+
 #endif

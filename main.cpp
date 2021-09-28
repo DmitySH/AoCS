@@ -1,6 +1,12 @@
-#include "truck.h"
 #include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
+#include <cstring>
 
+#include "truck.h"
+
+// Тестирование.
 int main() {
     Truck truck {};
     InRnd(truck);
