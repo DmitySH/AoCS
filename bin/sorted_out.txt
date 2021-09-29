@@ -1,8 +1,8 @@
 Container after Shell Sort: 
 Container contains 6 elements
-0: It is car: maximal speed = 123, tank volume =  3, consumption = 123.120000. maximal range = 2.436647 
-1: It is car: maximal speed = 312, tank volume =  3, consumption = 12.200000. maximal range = 24.590164 
-2: It is truck: maximal weight = 321, tank volume = 2, consumption = 3.230000. maximal range = 61.919505 
-3: It is bus: maximal passengers = 30, tank volume = 40, consumption = 50.001000. maximal range = 79.998400 
-4: It is bus: maximal passengers = 40, tank volume = 50, consumption = 60.000000. maximal range = 83.333333 
-5: It is bus: maximal passengers = 12, tank volume = 3, consumption = 1.000000. maximal range = 300.000000 
+0: It is truck: maximal weight = 1000, tank volume = 120, consumption = 30.001000. maximal range = 399.986667 
+1: It is car: maximal speed = 123, tank volume =  50, consumption = 10.000000. maximal range = 500.000000 
+2: It is car: maximal speed = 144, tank volume =  70, consumption = 14.000000. maximal range = 500.000000 
+3: It is bus: maximal passengers = 54, tank volume = 90, consumption = 18.000000. maximal range = 500.000000 
+4: It is car: maximal speed = 290, tank volume =  65, consumption = 12.200000. maximal range = 532.786885 
+5: It is truck: maximal weight = 3222, tank volume = 500, consumption = 45.000000. maximal range = 1111.111111 

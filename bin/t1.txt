@@ -1,5 +1,0 @@
-Filled container:
-Container contains 3 elements.
-0: It is car: maximal passengers = 45, tank volume = 115, consumption = 28.4803. maximal range = 403.787
-1: It is truck: maximal weight = 3025, tank volume = 634, consumption = 37.5291. maximal range = 1689.36
-2: It is car: maximal speed = 237, tank volume = 137, consumption = 24.4569. maximal range = 560.169

@@ -4,14 +4,27 @@
 
 // Ввод параметров автобуса из файла.
 void In(Bus &bus, FILE *input) {
-    fscanf(input, "%hi %i %lf", &bus.max_passengers, &bus.tank_volume, &bus.consumption);
+    int tank_volume;
+    short max_passengers;
+    double consumption;
+    if (fscanf(input, "%hi %i %lf", &max_passengers, &tank_volume, &consumption) != 3) {
+        throw std::invalid_argument("Incorrect vehicle!");
+    }
+    if (max_passengers < 10 || max_passengers > 70 || tank_volume < 50 ||
+        tank_volume > 150 || consumption < 12.0 || consumption > 30.0) {
+        throw std::invalid_argument("Incorrect data for that vehicle!");
+    } else {
+        bus.tank_volume = tank_volume;
+        bus.max_passengers = max_passengers;
+        bus.consumption = consumption;
+    }
 }
 
 // Случайный ввод параметров автобуса.
 void InRnd(Bus &bus) {
     bus.tank_volume = my_functions::Random(50, 150);
     bus.max_passengers = my_functions::Random(10, 70);
-    bus.consumption = my_functions::Random(20.0, 45.0);
+    bus.consumption = my_functions::Random(12.0, 30.0);
 }
 
 // Вывод параметров автобуса в форматируемый поток.

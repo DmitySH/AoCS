@@ -17,7 +17,10 @@ void Clear(Container &cont) {
 void In(Container &cont, FILE *input) {
     while (!feof(input)) {
         if ((cont.cont[cont.len] = In(input)) != nullptr) {
-            cont.len++;
+            ++cont.len;
+        }
+        else {
+            throw invalid_argument("Incorrect vehicle on line ");
         }
     }
 }

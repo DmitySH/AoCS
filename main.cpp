@@ -34,10 +34,23 @@ int main(int argc, char *argv[]) {
     Container c;
     Init(c);
 
+
     if (!strcmp(argv[1], "-f")) {
-        FILE *input = fopen(argv[2], "r");
-        In(c, input);
-        fclose(input);
+        try {
+            FILE *input = fopen(argv[2], "r");
+            In(c, input);
+            fclose(input);
+        } catch (std::invalid_argument const &ex) {
+            FILE *out = fopen(argv[3], "w");
+            fprintf(out, "%s\n%s %i", ex.what(), "Wrong line", c.len + 1);
+            fclose(out);
+            out = fopen(argv[4], "w");
+            fprintf(out, "%s\n%s %i", ex.what(), "Wrong line", c.len + 1);
+            fclose(out);
+
+            printf("%s\n%s %i", ex.what(), "Wrong line:", c.len + 1);
+            return 4;
+        }
     } else if (!strcmp(argv[1], "-n")) {
         int size = atoi(argv[2]);
         if ((size < 1) || (size > 10000)) {
@@ -51,6 +64,7 @@ int main(int argc, char *argv[]) {
         errMessage2();
         return 2;
     }
+
 
     // Вывод содержимого контейнера в файл1.
     FILE *output = fopen(argv[3], "w");
