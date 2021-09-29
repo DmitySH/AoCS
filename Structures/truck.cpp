@@ -8,9 +8,9 @@ void In(Truck &truck, ifstream &ifst) {
 
 // Случайный ввод параметров грузовика.
 void InRnd(Truck &truck){
-    truck.tank_volume = Random(200, 800);
-    truck.max_weight = Random(1000, 4000);
-    truck.consumption = Random(20.0, 45.0);
+    truck.tank_volume = my_functions::Random(200, 800);
+    truck.max_weight = my_functions::Random(1000, 4000);
+    truck.consumption = my_functions::Random(20.0, 45.0);
 }
 
 // Вывод параметров грузовика в форматируемый поток.

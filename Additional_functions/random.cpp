@@ -1,10 +1,12 @@
 #include "random.h"
-#include <cstdlib>
+#include <stdlib.h>
 
-double Random(double from, double to) {
-    return from + ((double)to - from) * rand() / (double)RAND_MAX;
-}
+namespace my_functions {
+    double Random(double from, double to) {
+        return from + ((double) to - from) * rand() / (double) RAND_MAX;
+    }
 
-int Random(int from, int to) {
-    return from + rand() % (to - from + 1);
+    int Random(int from, int to) {
+        return from + rand() % (to - from + 1);
+    }
 }

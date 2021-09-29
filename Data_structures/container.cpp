@@ -7,7 +7,7 @@ void Init(Container &cont) {
 
 // Очистка контейнера от элементов (освобождение памяти).
 void Clear(Container &cont) {
-    for(int i = 0; i < cont.len; i++) {
+    for (int i = 0; i < cont.len; i++) {
         delete cont.cont[i];
     }
     cont.len = 0;
@@ -15,8 +15,8 @@ void Clear(Container &cont) {
 
 // Ввод содержимого контейнера из указанного потока.
 void In(Container &cont, ifstream &ifst) {
-    while(!ifst.eof()) {
-        if((cont.cont[cont.len] = In(ifst)) != nullptr) {
+    while (!ifst.eof()) {
+        if ((cont.cont[cont.len] = In(ifst)) != nullptr) {
             cont.len++;
         }
     }
@@ -24,8 +24,8 @@ void In(Container &cont, ifstream &ifst) {
 
 // Случайный ввод содержимого контейнера.
 void InRnd(Container &cont, int size) {
-    while(cont.len < size) {
-        if((cont.cont[cont.len] = InRnd()) != nullptr) {
+    while (cont.len < size) {
+        if ((cont.cont[cont.len] = InRnd()) != nullptr) {
             cont.len++;
         }
     }
@@ -34,7 +34,7 @@ void InRnd(Container &cont, int size) {
 // Вывод содержимого контейнера в указанный поток.
 void Out(Container &cont, ofstream &ofst) {
     ofst << "Container contains " << cont.len << " elements." << endl;
-    for(int i = 0; i < cont.len; i++) {
+    for (int i = 0; i < cont.len; i++) {
         ofst << i << ": ";
         Out(*(cont.cont[i]), ofst);
     }
@@ -43,9 +43,27 @@ void Out(Container &cont, ofstream &ofst) {
 // Вычисление суммы максимальных расстояний всех ТС в контейнере.
 double MaxDistanceSum(Container &c) {
     double sum = 0.0;
-    for(int i = 0; i < c.len; i++) {
+    for (int i = 0; i < c.len; i++) {
         sum += MaxDistance(*(c.cont[i]));
     }
+
     return sum;
 }
 
+namespace my_functions {
+    void ShellSortByMaxDistance(Container &c) {
+        int d = c.len / 2;
+        while (d != 0) {
+            for (int i = d; i < c.len; i += d) {
+                int j = i;
+                while (j > 0 && MaxDistance(*c.cont[j - d]) > MaxDistance(*c.cont[j])) {
+                    Vehicle *temp = c.cont[j - d];
+                    c.cont[j - d] = c.cont[j];
+                    c.cont[j] = temp;
+                    j -= d;
+                }
+            }
+            d /= 2;
+        }
+    }
+}

@@ -5,7 +5,7 @@
 #include "../Structures/vehicle.h"
 
 struct Container {
-    static const int max_len = 10000;// Максимальная длина.
+    static const int max_len = 10001;// Максимальная длина.
     int len; // Текущая длина.
     Vehicle *cont[max_len];
 };
@@ -27,5 +27,9 @@ void Out(Container &c, ofstream &ofst);
 
 // Вычисление суммы максимальных расстояний всех ТМ в контейнере.
 double MaxDistanceSum(Container &c);
+
+namespace my_functions {
+    void ShellSortByMaxDistance(Container &c);
+}
 
 #endif

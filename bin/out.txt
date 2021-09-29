@@ -1,0 +1,22 @@
+Filled container:
+Container contains 20 elements.
+0: It is car: maximal passengers = 55, tank volume = 61, consumption = 35.0548. maximal range = 174.013
+1: It is car: maximal passengers = 13, tank volume = 115, consumption = 28.8954. maximal range = 397.987
+2: It is car: maximal speed = 243, tank volume = 108, consumption = 27.0177. maximal range = 399.737
+3: It is car: maximal speed = 129, tank volume = 145, consumption = 26.8772. maximal range = 539.491
+4: It is car: maximal passengers = 62, tank volume = 149, consumption = 22.6124. maximal range = 658.931
+5: It is truck: maximal weight = 1901, tank volume = 407, consumption = 38.5286. maximal range = 1056.36
+6: It is car: maximal speed = 169, tank volume = 129, consumption = 23.2122. maximal range = 555.742
+7: It is truck: maximal weight = 3852, tank volume = 722, consumption = 32.8491. maximal range = 2197.93
+8: It is truck: maximal weight = 3028, tank volume = 310, consumption = 35.5591. maximal range = 871.788
+9: It is car: maximal passengers = 64, tank volume = 76, consumption = 35.0845. maximal range = 216.62
+10: It is truck: maximal weight = 2629, tank volume = 532, consumption = 31.7443. maximal range = 1675.89
+11: It is car: maximal passengers = 67, tank volume = 148, consumption = 41.3973. maximal range = 357.511
+12: It is truck: maximal weight = 3336, tank volume = 582, consumption = 20.7134. maximal range = 2809.78
+13: It is car: maximal speed = 180, tank volume = 70, consumption = 24.006. maximal range = 291.594
+14: It is car: maximal speed = 211, tank volume = 64, consumption = 22.1548. maximal range = 288.877
+15: It is truck: maximal weight = 1645, tank volume = 611, consumption = 38.3866. maximal range = 1591.7
+16: It is car: maximal speed = 301, tank volume = 144, consumption = 24.4913. maximal range = 587.965
+17: It is car: maximal speed = 112, tank volume = 87, consumption = 26.6218. maximal range = 326.8
+18: It is car: maximal passengers = 31, tank volume = 112, consumption = 27.7692. maximal range = 403.324
+19: It is car: maximal passengers = 47, tank volume = 145, consumption = 41.2798. maximal range = 351.261

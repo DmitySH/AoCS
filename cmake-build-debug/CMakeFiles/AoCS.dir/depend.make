@@ -30,5 +30,9 @@ CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj: \
  ../Structures/vehicle.cpp \
  ../Structures/vehicle.h
 CMakeFiles/AoCS.dir/main.cpp.obj: \
+ ../Data_structures/container.h \
+ ../Structures/bus.h \
+ ../Structures/car.h \
  ../Structures/truck.h \
+ ../Structures/vehicle.h \
  ../main.cpp

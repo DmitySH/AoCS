@@ -2,6 +2,7 @@
 #define AOCS_TRUCK_H
 
 #include <fstream>
+
 using namespace std;
 
 // Грузовик.

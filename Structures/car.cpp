@@ -8,9 +8,9 @@ void In(Car &car, ifstream &ifst) {
 
 // Случайный ввод параметров автомобиля.
 void InRnd(Car &car) {
-    car.tank_volume = Random(50, 150);
-    car.max_speed = Random(80, 320);
-    car.consumption = Random(20.0, 45.0);
+    car.tank_volume = my_functions::Random(50, 150);
+    car.max_speed = my_functions::Random(80, 320);
+    car.consumption = my_functions::Random(20.0, 35.0);
 }
 
 // Вывод параметров автомобиля в форматируемый поток.

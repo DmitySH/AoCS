@@ -8,14 +8,14 @@ void In(Bus &bus, ifstream &ifst) {
 
 // Случайный ввод параметров автобуса.
 void InRnd(Bus &bus) {
-    bus.tank_volume = Random(50, 150);
-    bus.max_passengers = Random(10, 70);
-    bus.consumption = Random(20.0, 45.0);
+    bus.tank_volume = my_functions::Random(50, 150);
+    bus.max_passengers = my_functions::Random(10, 70);
+    bus.consumption = my_functions::Random(20.0, 45.0);
 }
 
 // Вывод параметров автобуса в форматируемый поток.
 void Out(Bus &bus, ofstream &ofst) {
-    ofst << "It is car: maximal passengers = "
+    ofst << "It is bus: maximal passengers = "
          << bus.max_passengers << ", tank volume = "
          << bus.tank_volume << ", consumption = "
          << bus.consumption << ". maximal range = "

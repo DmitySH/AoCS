@@ -1,7 +1,6 @@
 #include "vehicle.h"
 // Описание обобщенного транспортного средства (ТС).
 
-
 // Ввод параметров ТС из файла.
 Vehicle *In(ifstream &ifst) {
     Vehicle *vehicle;
