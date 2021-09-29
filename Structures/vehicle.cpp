@@ -2,25 +2,26 @@
 // Описание обобщенного транспортного средства (ТС).
 
 // Ввод параметров ТС из файла.
-Vehicle *In(ifstream &ifst) {
+Vehicle *In(FILE *input) {
     Vehicle *vehicle;
     int k;
-    ifst >> k;
+    fscanf(input, "%i \n", &k);
+
     switch (k) {
         case 1:
             vehicle = new Vehicle;
             vehicle->key = Vehicle::CAR;
-            In(vehicle->car, ifst);
+            In(vehicle->car, input);
             return vehicle;
         case 2:
             vehicle = new Vehicle;
             vehicle->key = Vehicle::BUS;
-            In(vehicle->bus, ifst);
+            In(vehicle->bus, input);
             return vehicle;
         case 3:
             vehicle = new Vehicle;
             vehicle->key = Vehicle::TRUCK;
-            In(vehicle->truck, ifst);
+            In(vehicle->truck, input);
             return vehicle;
         default:
             return nullptr;
@@ -54,19 +55,19 @@ Vehicle *InRnd() {
 
 
 // Вывод параметров текущего ТС в поток.
-void Out(Vehicle &vehicle, ofstream &ofst) {
+void Out(Vehicle &vehicle, FILE *output) {
     switch (vehicle.key) {
         case Vehicle::CAR:
-            Out(vehicle.car, ofst);
+            Out(vehicle.car, output);
             break;
         case Vehicle::BUS:
-            Out(vehicle.bus, ofst);
+            Out(vehicle.bus, output);
             break;
         case Vehicle::TRUCK:
-            Out(vehicle.truck, ofst);
+            Out(vehicle.truck, output);
             break;
         default:
-            ofst << "Incorrect vehicle!" << endl;
+            fprintf(output, "%s", "Incorrect vehicle!\n");
     }
 }
 

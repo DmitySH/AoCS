@@ -2,8 +2,8 @@
 #include "../Additional_functions/random.h"
 
 // Ввод параметров грузовика из файла.
-void In(Truck &truck, ifstream &ifst) {
-    ifst >> truck.max_weight >> truck.tank_volume >> truck.consumption;
+void In(Truck &truck, FILE *input) {
+    fscanf(input, "%i %i %lf", &truck.max_weight, &truck.tank_volume, &truck.consumption);
 }
 
 // Случайный ввод параметров грузовика.
@@ -14,12 +14,12 @@ void InRnd(Truck &truck){
 }
 
 // Вывод параметров грузовика в форматируемый поток.
-void Out(Truck &truck, ofstream &ofst) {
-    ofst << "It is truck: maximal weight = "
-         << truck.max_weight << ", tank volume = "
-         << truck.tank_volume << ", consumption = "
-         << truck.consumption << ". maximal range = "
-         << MaxRange(truck) << "\n";
+void Out(Truck &truck, FILE *output) {
+    fprintf(output, "%s %hi%s %i%s %lf%s %lf \n", "It is truck: maximal weight =",
+            truck.max_weight, ", tank volume =",
+            truck.tank_volume, ", consumption =",
+            truck.consumption, ". maximal range =",
+            MaxRange(truck));
 }
 
 // Вычисление максимальногорасстояние,которое может проехать автомобиль.

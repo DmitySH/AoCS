@@ -14,9 +14,9 @@ void Clear(Container &cont) {
 }
 
 // Ввод содержимого контейнера из указанного потока.
-void In(Container &cont, ifstream &ifst) {
-    while (!ifst.eof()) {
-        if ((cont.cont[cont.len] = In(ifst)) != nullptr) {
+void In(Container &cont, FILE *input) {
+    while (!feof(input)) {
+        if ((cont.cont[cont.len] = In(input)) != nullptr) {
             cont.len++;
         }
     }
@@ -32,22 +32,12 @@ void InRnd(Container &cont, int size) {
 }
 
 // Вывод содержимого контейнера в указанный поток.
-void Out(Container &cont, ofstream &ofst) {
-    ofst << "Container contains " << cont.len << " elements." << endl;
+void Out(Container &cont, FILE *output) {
+    fprintf(output, "%s %i %s", "Container contains", cont.len, "elements\n");
     for (int i = 0; i < cont.len; i++) {
-        ofst << i << ": ";
-        Out(*(cont.cont[i]), ofst);
+        fprintf(output, "%i%s", i, ": ");
+        Out(*(cont.cont[i]), output);
     }
-}
-
-// Вычисление суммы максимальных расстояний всех ТС в контейнере.
-double MaxDistanceSum(Container &c) {
-    double sum = 0.0;
-    for (int i = 0; i < c.len; i++) {
-        sum += MaxDistance(*(c.cont[i]));
-    }
-
-    return sum;
 }
 
 namespace my_functions {

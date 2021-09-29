@@ -13,13 +13,13 @@ struct Car {
 };
 
 // Ввод параметров автомобиля из файла.
-void In(Car &car, ifstream &ifst);
+void In(Car &car, FILE *input);
 
 // Случайный ввод параметров автомобиля.
 void InRnd(Car &car);
 
 // Вывод параметров автомобиля в форматируемый поток.
-void Out(Car &car, ofstream &ofst);
+void Out(Car &car, FILE *output);
 
 // Вычисление максимального расстояния,которое может проехать автомобиль.
 double MaxRange(Car &car);

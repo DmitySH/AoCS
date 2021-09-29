@@ -12,13 +12,13 @@ using namespace std;
     };
 
 // Ввод параметров автобуса из файла.
-    void In(Bus &bus, ifstream &ifst);
+    void In(Bus &bus, FILE *input);
 
 // Случайный ввод параметров автобуса.
     void InRnd(Bus &bus);
 
 // Вывод параметров автобуса в форматируемый поток.
-    void Out(Bus &bus, ofstream &ofst);
+    void Out(Bus &bus, FILE *output);
 
 // Вычисление максимального расстояния,которое может проехать автобус.
     double MaxRange(Bus &bus);

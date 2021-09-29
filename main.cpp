@@ -3,8 +3,6 @@
 #include <time.h>
 #include <string.h>
 
-#include "Structures/truck.h"
-#include "Structures/bus.h"
 #include "Data_structures/container.h"
 
 
@@ -25,7 +23,7 @@ void errMessage2() {
                  "     command -n number outfile01 outfile02\n");
 }
 
-//------------------------------------------------------------------------------
+//Тестирование.
 int main(int argc, char *argv[]) {
     if (argc != 5) {
         errMessage1();
@@ -37,8 +35,9 @@ int main(int argc, char *argv[]) {
     Init(c);
 
     if (!strcmp(argv[1], "-f")) {
-        ifstream ifst(argv[2]);
-        In(c, ifst);
+        FILE *input = fopen(argv[2], "r");
+        In(c, input);
+        fclose(input);
     } else if (!strcmp(argv[1], "-n")) {
         int size = atoi(argv[2]);
         if ((size < 1) || (size > 10000)) {
@@ -54,15 +53,17 @@ int main(int argc, char *argv[]) {
     }
 
     // Вывод содержимого контейнера в файл1.
-    ofstream ofst1(argv[3]);
-    ofst1 << "Filled container:\n";
-    Out(c, ofst1);
+    FILE *output = fopen(argv[3], "w");
+    fprintf(output, "%s", "Filled container:\n");
+    Out(c, output);
+    fclose(output);
 
     // Сортировка контейнера методом Шелла.
     my_functions::ShellSortByMaxDistance(c);
-    ofstream ofst2(argv[4]);
-    ofst2 << "Container after Shell Sort: \n";
-    Out(c, ofst2);
+    output = fopen(argv[4], "w");
+    fprintf(output, "%s", "Container after Shell Sort: \n");
+    Out(c, output);
+    fclose(output);
 
     // Очистка памяти после работы.
     Clear(c);

@@ -17,16 +17,14 @@ void Init(Container &cont);
 void Clear(Container &cont);
 
 // Ввод содержимого контейнера из указанного потока.
-void In(Container &c, ifstream &ifst);
+void In(Container &c, FILE *input);
 
 // Случайный ввод содержимого контейнера.
 void InRnd(Container &c, int size);
 
 // Вывод содержимого контейнера в указанный поток.
-void Out(Container &c, ofstream &ofst);
+void Out(Container &c, FILE *output);
 
-// Вычисление суммы максимальных расстояний всех ТМ в контейнере.
-double MaxDistanceSum(Container &c);
 
 namespace my_functions {
     void ShellSortByMaxDistance(Container &c);

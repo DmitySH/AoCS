@@ -1,9 +1,10 @@
 #include "bus.h"
 #include "../Additional_functions/random.h"
+#include <stdio.h>
 
 // Ввод параметров автобуса из файла.
-void In(Bus &bus, ifstream &ifst) {
-    ifst >> bus.max_passengers >> bus.tank_volume >> bus.consumption;
+void In(Bus &bus, FILE *input) {
+    fscanf(input, "%hi %i %lf", &bus.max_passengers, &bus.tank_volume, &bus.consumption);
 }
 
 // Случайный ввод параметров автобуса.
@@ -14,12 +15,12 @@ void InRnd(Bus &bus) {
 }
 
 // Вывод параметров автобуса в форматируемый поток.
-void Out(Bus &bus, ofstream &ofst) {
-    ofst << "It is bus: maximal passengers = "
-         << bus.max_passengers << ", tank volume = "
-         << bus.tank_volume << ", consumption = "
-         << bus.consumption << ". maximal range = "
-         << MaxRange(bus) << "\n";
+void Out(Bus &bus, FILE *output) {
+    fprintf(output, "%s %hi%s %i%s %lf%s %lf \n", "It is bus: maximal passengers =",
+            bus.max_passengers, ", tank volume =",
+            bus.tank_volume, ", consumption =",
+            bus.consumption, ". maximal range =",
+            MaxRange(bus));
 }
 
 // Вычисление максимального расстояния,которое может проехать автобус.
