@@ -15,7 +15,7 @@ void Clear(Container &cont) {
 
 // Ввод содержимого контейнера из указанного потока.
 void In(Container &cont, FILE *input) {
-    while (!feof(input)) {
+    while (!feof(input) && cont.len < cont.max_len - 1) {
         if ((cont.cont[cont.len] = In(input)) != nullptr) {
             ++cont.len;
         }
