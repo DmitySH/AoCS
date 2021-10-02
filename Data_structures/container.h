@@ -5,7 +5,7 @@
 #include "../Structures/vehicle.h"
 
 struct Container {
-    static const int max_len = 10001;// Максимальная длина.
+    enum {max_len = 10001};// Максимальная длина.
     int len; // Текущая длина.
     Vehicle *cont[max_len];
 };

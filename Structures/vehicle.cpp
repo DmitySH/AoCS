@@ -10,17 +10,17 @@ Vehicle *In(FILE *input) {
     switch (k) {
         case 1:
             vehicle = new Vehicle;
-            vehicle->key = Vehicle::CAR;
+            vehicle->k = Vehicle::CAR;
             In(vehicle->car, input);
             return vehicle;
         case 2:
             vehicle = new Vehicle;
-            vehicle->key = Vehicle::BUS;
+            vehicle->k = Vehicle::BUS;
             In(vehicle->bus, input);
             return vehicle;
         case 3:
             vehicle = new Vehicle;
-            vehicle->key = Vehicle::TRUCK;
+            vehicle->k = Vehicle::TRUCK;
             In(vehicle->truck, input);
             return vehicle;
         default:
@@ -35,17 +35,17 @@ Vehicle *InRnd() {
     switch (k) {
         case 1:
             vehicle = new Vehicle;
-            vehicle->key = Vehicle::CAR;
+            vehicle->k = Vehicle::CAR;
             InRnd(vehicle->car);
             return vehicle;
         case 2:
             vehicle = new Vehicle;
-            vehicle->key = Vehicle::BUS;
+            vehicle->k = Vehicle::BUS;
             InRnd(vehicle->bus);
             return vehicle;
         case 3:
             vehicle = new Vehicle;
-            vehicle->key = Vehicle::TRUCK;
+            vehicle->k = Vehicle::TRUCK;
             InRnd(vehicle->truck);
             return vehicle;
         default:
@@ -56,7 +56,7 @@ Vehicle *InRnd() {
 
 // Вывод параметров текущего ТС в поток.
 void Out(Vehicle &vehicle, FILE *output) {
-    switch (vehicle.key) {
+    switch (vehicle.k) {
         case Vehicle::CAR:
             Out(vehicle.car, output);
             break;
@@ -74,7 +74,7 @@ void Out(Vehicle &vehicle, FILE *output) {
 
 // Вычисление максимального расстояния на котором можно проехать на ТС.
 double MaxDistance(Vehicle &vehicle) {
-    switch (vehicle.key) {
+    switch (vehicle.k) {
         case Vehicle::CAR:
             return MaxRange(vehicle.car);
         case Vehicle::BUS:

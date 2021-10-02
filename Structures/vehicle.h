@@ -12,7 +12,7 @@ struct Vehicle {
         CAR, BUS, TRUCK
     };
 
-    key key; // Ключ.
+    key k; // Ключ.
     // Используемые альтернативы.
     union {
         Car car;
