@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/AoCS.dir/Additional_functions/random.cpp.o CMakeFiles/AoCS.dir/Structures/truck.cpp.o CMakeFiles/AoCS.dir/main.cpp.o CMakeFiles/AoCS.dir/Structures/bus.cpp.o CMakeFiles/AoCS.dir/Structures/car.cpp.o CMakeFiles/AoCS.dir/Structures/vehicle.cpp.o CMakeFiles/AoCS.dir/Data_structures/container.cpp.o -o ../bin/AoCS 

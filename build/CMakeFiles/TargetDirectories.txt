@@ -1,3 +1,0 @@
-/home/dmitriy/Рабочий стол/AoCS/build/CMakeFiles/rebuild_cache.dir
-/home/dmitriy/Рабочий стол/AoCS/build/CMakeFiles/AoCS.dir
-/home/dmitriy/Рабочий стол/AoCS/build/CMakeFiles/edit_cache.dir

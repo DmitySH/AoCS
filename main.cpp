@@ -39,8 +39,11 @@ void ErrMessage2() {
                  "     command -n number outfile01 outfile02\n");
 }
 
+
 //Тестирование.
 int main(int argc, char *argv[]) {
+    clock_t start = clock(); // Начальное время.
+
     if (argc != 5) {
         ErrMessage1();
         return 1;
@@ -99,6 +102,10 @@ int main(int argc, char *argv[]) {
 
     // Очистка памяти после работы.
     Clear(c);
+
+    clock_t end = clock(); // Конечное время.
+    double total_time = static_cast<double>(end - start) / CLOCKS_PER_SEC;
+    printf("%s %lf %s \n", "Total time for program:", total_time, "seconds");
     printf("%s", "Stop. Success!");
 
     return 0;
