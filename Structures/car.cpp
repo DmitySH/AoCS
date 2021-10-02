@@ -21,7 +21,7 @@ void In(Car &car, FILE *input) {
 
 // Случайный ввод параметров автомобиля.
 void InRnd(Car &car) {
-    car.tank_volume = my_functions::Random(50, 100);
+    car.tank_volume = my_functions::Random(50, 150);
     car.max_speed = my_functions::Random(80, 320);
     car.consumption = my_functions::Random(6.0, 25.0);
 }

@@ -8,7 +8,7 @@ void In(Truck &truck, FILE *input) {
     if (fscanf(input, "%i %i %lf", &max_weight, &tank_volume, &consumption) != 3) {
         throw std::invalid_argument("Incorrect vehicle!");
     }
-    if (max_weight < 1000 || max_weight > 4000 || tank_volume < 100 ||
+    if (max_weight < 1000 || max_weight > 4000 || tank_volume < 200 ||
         tank_volume > 800 || consumption < 20.0 || consumption > 45.0) {
         throw std::invalid_argument("Incorrect data for that vehicle!");
     } else{

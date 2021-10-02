@@ -1,7 +1,7 @@
 Filled container:
 Container contains 6 elements
 0: It is car: maximal speed = 123, tank volume =  50, consumption = 10.000000. maximal range = 500.000000 
-1: It is truck: maximal weight = 1000, tank volume = 120, consumption = 30.001000. maximal range = 399.986667 
+1: It is truck: maximal weight = 1000, tank volume = 220, consumption = 30.001000. maximal range = 733.308890 
 2: It is car: maximal speed = 144, tank volume =  70, consumption = 14.000000. maximal range = 500.000000 
 3: It is car: maximal speed = 290, tank volume =  65, consumption = 12.200000. maximal range = 532.786885 
 4: It is bus: maximal passengers = 54, tank volume = 90, consumption = 18.000000. maximal range = 500.000000 

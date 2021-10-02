@@ -10,8 +10,8 @@ void In(Bus &bus, FILE *input) {
     if (fscanf(input, "%hi %i %lf", &max_passengers, &tank_volume, &consumption) != 3) {
         throw std::invalid_argument("Incorrect vehicle!");
     }
-    if (max_passengers < 10 || max_passengers > 70 || tank_volume < 50 ||
-        tank_volume > 150 || consumption < 12.0 || consumption > 30.0) {
+    if (max_passengers < 10 || max_passengers > 70 || tank_volume < 80 ||
+        tank_volume > 250 || consumption < 12.0 || consumption > 30.0) {
         throw std::invalid_argument("Incorrect data for that vehicle!");
     } else {
         bus.tank_volume = tank_volume;
@@ -22,7 +22,7 @@ void In(Bus &bus, FILE *input) {
 
 // Случайный ввод параметров автобуса.
 void InRnd(Bus &bus) {
-    bus.tank_volume = my_functions::Random(50, 150);
+    bus.tank_volume = my_functions::Random(80, 250);
     bus.max_passengers = my_functions::Random(10, 70);
     bus.consumption = my_functions::Random(12.0, 30.0);
 }

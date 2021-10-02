@@ -6,15 +6,39 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/dm1tr/Desktop/AoCS/Additional_functions/random.h
+C:/Users/dm1tr/Desktop/AoCS/Data_structures/container.h
+../Structures/vehicle.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/vehicle.h
 
-C:/Users/dm1tr/Desktop/AoCS/Structures/truck.cpp
-truck.h
-C:/Users/dm1tr/Desktop/AoCS/Structures/truck.h
-../Additional_functions/random.h
-C:/Users/dm1tr/Desktop/AoCS/Additional_functions/random.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/bus.h
+fstream
+-
+
+C:/Users/dm1tr/Desktop/AoCS/Structures/car.h
+fstream
+-
 
 C:/Users/dm1tr/Desktop/AoCS/Structures/truck.h
 fstream
 -
+
+C:/Users/dm1tr/Desktop/AoCS/Structures/vehicle.h
+car.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/car.h
+bus.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/bus.h
+truck.h
+C:/Users/dm1tr/Desktop/AoCS/Structures/truck.h
+
+C:/Users/dm1tr/Desktop/AoCS/main.cpp
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+Data_structures/container.h
+C:/Users/dm1tr/Desktop/AoCS/Data_structures/container.h
 
