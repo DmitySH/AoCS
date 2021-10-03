@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1633249384 "c:/Users/dm1tr/Desktop/AoCS/docs/doc.tex" "doc.pdf" "doc" 1633249385
+["pdflatex"] 1633264984 "c:/Users/dm1tr/Desktop/AoCS/docs/doc.tex" "doc.pdf" "doc" 1633264986
   "C:/Users/dm1tr/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1620675654 36852 9912546ab4fc474c5eb65491b249d421 ""
   "C:/Users/dm1tr/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk" 1620661160 45168 c8c6f9cbdc9de6020d42c3b20e198ff3 ""
   "C:/Users/dm1tr/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk" 1633168626 54480 bef2cf48dfa4d1a839b879d3c684e0e2 ""
@@ -83,10 +83,10 @@
   "C:/Users/dm1tr/AppData/Local/Programs/MiKTeX/tex/latex/ragged2e/ragged2e.sty" 1612952466 9204 2f0aef9fbe22be710da148fcc4b33ddf ""
   "C:/Users/dm1tr/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1324294077 22913 a27d7908fc6f0385466454a966a316eb ""
   "C:/Users/dm1tr/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
-  "c:/Users/dm1tr/Desktop/AoCS/docs/doc.tex" 1633249383 11501 8d46dfb9f40ac2f6cc2649905f251f7d ""
-  "doc.aux" 1633249385 132 451533ab23d6cc1f816109f926adff2c "pdflatex"
-  "doc.tex" 1633249383 11501 8d46dfb9f40ac2f6cc2649905f251f7d ""
+  "c:/Users/dm1tr/Desktop/AoCS/docs/doc.tex" 1633264984 11503 c4c6b1c72ab3590c92086552f663c895 ""
+  "doc.aux" 1633264986 132 451533ab23d6cc1f816109f926adff2c "pdflatex"
+  "doc.tex" 1633264984 11503 c4c6b1c72ab3590c92086552f663c895 ""
   (generated)
-  "doc.aux"
   "doc.pdf"
+  "doc.aux"
   "doc.log"
