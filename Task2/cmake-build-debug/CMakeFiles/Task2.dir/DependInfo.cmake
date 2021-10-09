@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/Vehicle.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj"
   "C:/Users/dm1tr/Desktop/AoCS/Task2/main.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

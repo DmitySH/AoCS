@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj"
   "CMakeFiles/Task2.dir/main.cpp.obj"
   "Task2.exe"
   "Task2.exe.manifest"

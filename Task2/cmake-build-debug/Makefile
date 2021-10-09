@@ -116,41 +116,137 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Task2
+# Target rules for targets named AoCS
 
 # Build rule for target.
-Task2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task2
-.PHONY : Task2
+AoCS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AoCS
+.PHONY : AoCS
 
 # fast build rule for target.
-Task2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/build
-.PHONY : Task2/fast
+AoCS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/build
+.PHONY : AoCS/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+Additional_functions/random.obj: Additional_functions/random.cpp.obj
+.PHONY : Additional_functions/random.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Additional_functions/random.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj
+.PHONY : Additional_functions/random.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+Additional_functions/random.i: Additional_functions/random.cpp.i
+.PHONY : Additional_functions/random.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/main.cpp.i
-.PHONY : main.cpp.i
+Additional_functions/random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Additional_functions/random.cpp.i
+.PHONY : Additional_functions/random.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Additional_functions/random.s: Additional_functions/random.cpp.s
+.PHONY : Additional_functions/random.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/main.cpp.s
-.PHONY : main.cpp.s
+Additional_functions/random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Additional_functions/random.cpp.s
+.PHONY : Additional_functions/random.cpp.s
+
+Structures/bus.obj: Structures/bus.cpp.obj
+.PHONY : Structures/bus.obj
+
+# target to build an object file
+Structures/bus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/bus.cpp.obj
+.PHONY : Structures/bus.cpp.obj
+
+Structures/bus.i: Structures/bus.cpp.i
+.PHONY : Structures/bus.i
+
+# target to preprocess a source file
+Structures/bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/bus.cpp.i
+.PHONY : Structures/bus.cpp.i
+
+Structures/bus.s: Structures/bus.cpp.s
+.PHONY : Structures/bus.s
+
+# target to generate assembly for a file
+Structures/bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/bus.cpp.s
+.PHONY : Structures/bus.cpp.s
+
+Structures/car.obj: Structures/car.cpp.obj
+.PHONY : Structures/car.obj
+
+# target to build an object file
+Structures/car.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/car.cpp.obj
+.PHONY : Structures/car.cpp.obj
+
+Structures/car.i: Structures/car.cpp.i
+.PHONY : Structures/car.i
+
+# target to preprocess a source file
+Structures/car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/car.cpp.i
+.PHONY : Structures/car.cpp.i
+
+Structures/car.s: Structures/car.cpp.s
+.PHONY : Structures/car.s
+
+# target to generate assembly for a file
+Structures/car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/car.cpp.s
+.PHONY : Structures/car.cpp.s
+
+Structures/truck.obj: Structures/truck.cpp.obj
+.PHONY : Structures/truck.obj
+
+# target to build an object file
+Structures/truck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/truck.cpp.obj
+.PHONY : Structures/truck.cpp.obj
+
+Structures/truck.i: Structures/truck.cpp.i
+.PHONY : Structures/truck.i
+
+# target to preprocess a source file
+Structures/truck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/truck.cpp.i
+.PHONY : Structures/truck.cpp.i
+
+Structures/truck.s: Structures/truck.cpp.s
+.PHONY : Structures/truck.s
+
+# target to generate assembly for a file
+Structures/truck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/truck.cpp.s
+.PHONY : Structures/truck.cpp.s
+
+Structures/vehicle.obj: Structures/vehicle.cpp.obj
+.PHONY : Structures/vehicle.obj
+
+# target to build an object file
+Structures/vehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj
+.PHONY : Structures/vehicle.cpp.obj
+
+Structures/vehicle.i: Structures/vehicle.cpp.i
+.PHONY : Structures/vehicle.i
+
+# target to preprocess a source file
+Structures/vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/vehicle.cpp.i
+.PHONY : Structures/vehicle.cpp.i
+
+Structures/vehicle.s: Structures/vehicle.cpp.s
+.PHONY : Structures/vehicle.s
+
+# target to generate assembly for a file
+Structures/vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/vehicle.cpp.s
+.PHONY : Structures/vehicle.cpp.s
 
 # Help Target
 help:
@@ -160,10 +256,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Task2
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... AoCS
+	@echo ... Additional_functions/random.obj
+	@echo ... Additional_functions/random.i
+	@echo ... Additional_functions/random.s
+	@echo ... Structures/bus.obj
+	@echo ... Structures/bus.i
+	@echo ... Structures/bus.s
+	@echo ... Structures/car.obj
+	@echo ... Structures/car.i
+	@echo ... Structures/car.s
+	@echo ... Structures/truck.obj
+	@echo ... Structures/truck.i
+	@echo ... Structures/truck.s
+	@echo ... Structures/vehicle.obj
+	@echo ... Structures/vehicle.i
+	@echo ... Structures/vehicle.s
 .PHONY : help
 
 
