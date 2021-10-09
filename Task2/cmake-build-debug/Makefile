@@ -152,6 +152,30 @@ Additional_functions/random.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Additional_functions/random.cpp.s
 .PHONY : Additional_functions/random.cpp.s
 
+Data_structures/container.obj: Data_structures/container.cpp.obj
+.PHONY : Data_structures/container.obj
+
+# target to build an object file
+Data_structures/container.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj
+.PHONY : Data_structures/container.cpp.obj
+
+Data_structures/container.i: Data_structures/container.cpp.i
+.PHONY : Data_structures/container.i
+
+# target to preprocess a source file
+Data_structures/container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Data_structures/container.cpp.i
+.PHONY : Data_structures/container.cpp.i
+
+Data_structures/container.s: Data_structures/container.cpp.s
+.PHONY : Data_structures/container.s
+
+# target to generate assembly for a file
+Data_structures/container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Data_structures/container.cpp.s
+.PHONY : Data_structures/container.cpp.s
+
 Structures/bus.obj: Structures/bus.cpp.obj
 .PHONY : Structures/bus.obj
 
@@ -260,6 +284,9 @@ help:
 	@echo ... Additional_functions/random.obj
 	@echo ... Additional_functions/random.i
 	@echo ... Additional_functions/random.s
+	@echo ... Data_structures/container.obj
+	@echo ... Data_structures/container.i
+	@echo ... Data_structures/container.s
 	@echo ... Structures/bus.obj
 	@echo ... Structures/bus.i
 	@echo ... Structures/bus.s

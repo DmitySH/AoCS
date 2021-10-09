@@ -7,10 +7,6 @@ class Truck : public Vehicle {
  public:
   virtual ~Truck() = default;
 
-  static Vehicle *StaticIn(FILE *input);
-
-  static Vehicle *StaticInRnd();
-
   void In(FILE *input);
 
   virtual void InRnd();

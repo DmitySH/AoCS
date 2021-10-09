@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Task2/Additional_functions/random.h">
 			<Option target="AoCS"/>
 		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Task2/Data_structures/container.cpp">
+			<Option target="AoCS"/>
+		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Task2/Data_structures/container.h">
+			<Option target="AoCS"/>
+		</Unit>
 		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/bus.cpp">
 			<Option target="AoCS"/>
 		</Unit>

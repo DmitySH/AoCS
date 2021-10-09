@@ -16,11 +16,13 @@ set(SOURCE_FILES
         Structures/truck.h
         Structures/car.h
         Additional_functions/random.h
+        Data_structures/container.h
         # Sources
         Structures/vehicle.cpp
         Structures/bus.cpp
         Structures/truck.cpp
         Structures/car.cpp
-        Additional_functions/random.cpp)
+        Additional_functions/random.cpp
+        Data_structures/container.cpp)
 
 add_executable(AoCS ${SOURCE_FILES})

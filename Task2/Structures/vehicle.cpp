@@ -4,7 +4,7 @@
 #include "car.h"
 #include "bus.h"
 
-// Ввод параметров обобщенной фигуры из файла
+// Ввод параметров обобщенного ТС из файла.
 Vehicle* Vehicle::StaticIn(FILE *input) {
   int k;
   fscanf(input, "%i \n", &k);
@@ -26,7 +26,7 @@ Vehicle* Vehicle::StaticIn(FILE *input) {
   return vehicle;
 }
 
-// Случайный ввод обобщенной фигуры
+// Случайный ввод обобщенного ТС.
 Vehicle* Vehicle::StaticInRnd() {
   int k = rand() % 3 + 1;
   Vehicle* vehicle = nullptr;
