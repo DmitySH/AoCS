@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/AoCS.dir/Structures/car.cpp.obj"
   "CMakeFiles/AoCS.dir/Structures/truck.cpp.obj"
   "CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj"
+  "CMakeFiles/AoCS.dir/main.cpp.obj"
   "libAoCS.dll.a"
 )
 

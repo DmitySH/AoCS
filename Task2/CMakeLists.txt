@@ -23,6 +23,7 @@ set(SOURCE_FILES
         Structures/truck.cpp
         Structures/car.cpp
         Additional_functions/random.cpp
-        Data_structures/container.cpp)
+        Data_structures/container.cpp
+        main.cpp)
 
 add_executable(AoCS ${SOURCE_FILES})

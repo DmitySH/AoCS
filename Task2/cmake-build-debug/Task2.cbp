@@ -116,6 +116,9 @@
 		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/vehicle.h">
 			<Option target="AoCS"/>
 		</Unit>
+		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Task2/main.cpp">
+			<Option target="AoCS"/>
+		</Unit>
 		<Unit filename="C:/Users/dm1tr/Desktop/AoCS/Task2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

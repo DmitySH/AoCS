@@ -20,10 +20,9 @@ class Container {
   void Out(FILE *output);
   // Сортировка Шелла.
   void ShellSortByMaxDistance();
- private:
   // Очистка контейнера от данных.
   void Clear();
-
+ private:
   Vehicle** storage;
   int size;
 };
