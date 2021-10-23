@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/dm1tr/Desktop/AoCS/Additional_functions/random.cpp" "C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj"
-  "C:/Users/dm1tr/Desktop/AoCS/Data_structures/container.cpp" "C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj"
-  "C:/Users/dm1tr/Desktop/AoCS/Structures/bus.cpp" "C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/bus.cpp.obj"
-  "C:/Users/dm1tr/Desktop/AoCS/Structures/car.cpp" "C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/car.cpp.obj"
-  "C:/Users/dm1tr/Desktop/AoCS/Structures/truck.cpp" "C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/truck.cpp.obj"
-  "C:/Users/dm1tr/Desktop/AoCS/Structures/vehicle.cpp" "C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj"
-  "C:/Users/dm1tr/Desktop/AoCS/main.cpp" "C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir/main.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task1/Additional_functions/random.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task1/Data_structures/container.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task1/Structures/bus.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/bus.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task1/Structures/car.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/car.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task1/Structures/truck.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/truck.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task1/Structures/vehicle.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task1/main.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

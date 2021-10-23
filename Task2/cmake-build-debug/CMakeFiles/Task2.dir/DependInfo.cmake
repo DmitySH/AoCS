@@ -8,7 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/Vehicle.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task2/Additional_functions/random.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Additional_functions/random.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task2/Data_structures/container.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Data_structures/container.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/bus.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Structures/bus.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/car.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Structures/car.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/truck.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Structures/truck.cpp.obj"
+  "C:/Users/dm1tr/Desktop/AoCS/Task2/Structures/vehicle.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/Structures/vehicle.cpp.obj"
   "C:/Users/dm1tr/Desktop/AoCS/Task2/main.cpp" "C:/Users/dm1tr/Desktop/AoCS/Task2/cmake-build-debug/CMakeFiles/Task2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

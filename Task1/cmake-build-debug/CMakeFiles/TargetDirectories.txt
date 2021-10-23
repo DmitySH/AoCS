@@ -1,3 +1,3 @@
-C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/AoCS.dir
-C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/dm1tr/Desktop/AoCS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/AoCS.dir
+C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dm1tr/Desktop/AoCS/Task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AoCS
+# Target rules for targets named Task2
 
 # Build rule for target.
-AoCS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AoCS
-.PHONY : AoCS
+Task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task2
+.PHONY : Task2
 
 # fast build rule for target.
-AoCS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/build
-.PHONY : AoCS/fast
+Task2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/build
+.PHONY : Task2/fast
 
 Additional_functions/random.obj: Additional_functions/random.cpp.obj
 .PHONY : Additional_functions/random.obj
 
 # target to build an object file
 Additional_functions/random.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Additional_functions/random.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Additional_functions/random.cpp.obj
 .PHONY : Additional_functions/random.cpp.obj
 
 Additional_functions/random.i: Additional_functions/random.cpp.i
@@ -141,7 +141,7 @@ Additional_functions/random.i: Additional_functions/random.cpp.i
 
 # target to preprocess a source file
 Additional_functions/random.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Additional_functions/random.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Additional_functions/random.cpp.i
 .PHONY : Additional_functions/random.cpp.i
 
 Additional_functions/random.s: Additional_functions/random.cpp.s
@@ -149,7 +149,7 @@ Additional_functions/random.s: Additional_functions/random.cpp.s
 
 # target to generate assembly for a file
 Additional_functions/random.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Additional_functions/random.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Additional_functions/random.cpp.s
 .PHONY : Additional_functions/random.cpp.s
 
 Data_structures/container.obj: Data_structures/container.cpp.obj
@@ -157,7 +157,7 @@ Data_structures/container.obj: Data_structures/container.cpp.obj
 
 # target to build an object file
 Data_structures/container.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Data_structures/container.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Data_structures/container.cpp.obj
 .PHONY : Data_structures/container.cpp.obj
 
 Data_structures/container.i: Data_structures/container.cpp.i
@@ -165,7 +165,7 @@ Data_structures/container.i: Data_structures/container.cpp.i
 
 # target to preprocess a source file
 Data_structures/container.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Data_structures/container.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Data_structures/container.cpp.i
 .PHONY : Data_structures/container.cpp.i
 
 Data_structures/container.s: Data_structures/container.cpp.s
@@ -173,7 +173,7 @@ Data_structures/container.s: Data_structures/container.cpp.s
 
 # target to generate assembly for a file
 Data_structures/container.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Data_structures/container.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Data_structures/container.cpp.s
 .PHONY : Data_structures/container.cpp.s
 
 Structures/bus.obj: Structures/bus.cpp.obj
@@ -181,7 +181,7 @@ Structures/bus.obj: Structures/bus.cpp.obj
 
 # target to build an object file
 Structures/bus.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/bus.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/bus.cpp.obj
 .PHONY : Structures/bus.cpp.obj
 
 Structures/bus.i: Structures/bus.cpp.i
@@ -189,7 +189,7 @@ Structures/bus.i: Structures/bus.cpp.i
 
 # target to preprocess a source file
 Structures/bus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/bus.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/bus.cpp.i
 .PHONY : Structures/bus.cpp.i
 
 Structures/bus.s: Structures/bus.cpp.s
@@ -197,7 +197,7 @@ Structures/bus.s: Structures/bus.cpp.s
 
 # target to generate assembly for a file
 Structures/bus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/bus.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/bus.cpp.s
 .PHONY : Structures/bus.cpp.s
 
 Structures/car.obj: Structures/car.cpp.obj
@@ -205,7 +205,7 @@ Structures/car.obj: Structures/car.cpp.obj
 
 # target to build an object file
 Structures/car.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/car.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/car.cpp.obj
 .PHONY : Structures/car.cpp.obj
 
 Structures/car.i: Structures/car.cpp.i
@@ -213,7 +213,7 @@ Structures/car.i: Structures/car.cpp.i
 
 # target to preprocess a source file
 Structures/car.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/car.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/car.cpp.i
 .PHONY : Structures/car.cpp.i
 
 Structures/car.s: Structures/car.cpp.s
@@ -221,7 +221,7 @@ Structures/car.s: Structures/car.cpp.s
 
 # target to generate assembly for a file
 Structures/car.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/car.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/car.cpp.s
 .PHONY : Structures/car.cpp.s
 
 Structures/truck.obj: Structures/truck.cpp.obj
@@ -229,7 +229,7 @@ Structures/truck.obj: Structures/truck.cpp.obj
 
 # target to build an object file
 Structures/truck.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/truck.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/truck.cpp.obj
 .PHONY : Structures/truck.cpp.obj
 
 Structures/truck.i: Structures/truck.cpp.i
@@ -237,7 +237,7 @@ Structures/truck.i: Structures/truck.cpp.i
 
 # target to preprocess a source file
 Structures/truck.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/truck.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/truck.cpp.i
 .PHONY : Structures/truck.cpp.i
 
 Structures/truck.s: Structures/truck.cpp.s
@@ -245,7 +245,7 @@ Structures/truck.s: Structures/truck.cpp.s
 
 # target to generate assembly for a file
 Structures/truck.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/truck.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/truck.cpp.s
 .PHONY : Structures/truck.cpp.s
 
 Structures/vehicle.obj: Structures/vehicle.cpp.obj
@@ -253,7 +253,7 @@ Structures/vehicle.obj: Structures/vehicle.cpp.obj
 
 # target to build an object file
 Structures/vehicle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/vehicle.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/vehicle.cpp.obj
 .PHONY : Structures/vehicle.cpp.obj
 
 Structures/vehicle.i: Structures/vehicle.cpp.i
@@ -261,7 +261,7 @@ Structures/vehicle.i: Structures/vehicle.cpp.i
 
 # target to preprocess a source file
 Structures/vehicle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/vehicle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/vehicle.cpp.i
 .PHONY : Structures/vehicle.cpp.i
 
 Structures/vehicle.s: Structures/vehicle.cpp.s
@@ -269,7 +269,7 @@ Structures/vehicle.s: Structures/vehicle.cpp.s
 
 # target to generate assembly for a file
 Structures/vehicle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/Structures/vehicle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Structures/vehicle.cpp.s
 .PHONY : Structures/vehicle.cpp.s
 
 main.obj: main.cpp.obj
@@ -277,7 +277,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -285,7 +285,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -293,7 +293,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AoCS.dir\build.make CMakeFiles/AoCS.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -304,7 +304,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... AoCS
+	@echo ... Task2
 	@echo ... Additional_functions/random.obj
 	@echo ... Additional_functions/random.i
 	@echo ... Additional_functions/random.s

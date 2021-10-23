@@ -65,9 +65,87 @@ include CMakeFiles/Task2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Task2.dir/flags.make
 
+CMakeFiles/Task2.dir/Structures/vehicle.cpp.obj: CMakeFiles/Task2.dir/flags.make
+CMakeFiles/Task2.dir/Structures/vehicle.cpp.obj: ../Structures/vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task2.dir/Structures/vehicle.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\Structures\vehicle.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\vehicle.cpp
+
+CMakeFiles/Task2.dir/Structures/vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task2.dir/Structures/vehicle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\vehicle.cpp > CMakeFiles\Task2.dir\Structures\vehicle.cpp.i
+
+CMakeFiles/Task2.dir/Structures/vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/Structures/vehicle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\vehicle.cpp -o CMakeFiles\Task2.dir\Structures\vehicle.cpp.s
+
+CMakeFiles/Task2.dir/Structures/bus.cpp.obj: CMakeFiles/Task2.dir/flags.make
+CMakeFiles/Task2.dir/Structures/bus.cpp.obj: ../Structures/bus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Task2.dir/Structures/bus.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\Structures\bus.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\bus.cpp
+
+CMakeFiles/Task2.dir/Structures/bus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task2.dir/Structures/bus.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\bus.cpp > CMakeFiles\Task2.dir\Structures\bus.cpp.i
+
+CMakeFiles/Task2.dir/Structures/bus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/Structures/bus.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\bus.cpp -o CMakeFiles\Task2.dir\Structures\bus.cpp.s
+
+CMakeFiles/Task2.dir/Structures/truck.cpp.obj: CMakeFiles/Task2.dir/flags.make
+CMakeFiles/Task2.dir/Structures/truck.cpp.obj: ../Structures/truck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Task2.dir/Structures/truck.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\Structures\truck.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\truck.cpp
+
+CMakeFiles/Task2.dir/Structures/truck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task2.dir/Structures/truck.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\truck.cpp > CMakeFiles\Task2.dir\Structures\truck.cpp.i
+
+CMakeFiles/Task2.dir/Structures/truck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/Structures/truck.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\truck.cpp -o CMakeFiles\Task2.dir\Structures\truck.cpp.s
+
+CMakeFiles/Task2.dir/Structures/car.cpp.obj: CMakeFiles/Task2.dir/flags.make
+CMakeFiles/Task2.dir/Structures/car.cpp.obj: ../Structures/car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Task2.dir/Structures/car.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\Structures\car.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\car.cpp
+
+CMakeFiles/Task2.dir/Structures/car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task2.dir/Structures/car.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\car.cpp > CMakeFiles\Task2.dir\Structures\car.cpp.i
+
+CMakeFiles/Task2.dir/Structures/car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/Structures/car.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\car.cpp -o CMakeFiles\Task2.dir\Structures\car.cpp.s
+
+CMakeFiles/Task2.dir/Additional_functions/random.cpp.obj: CMakeFiles/Task2.dir/flags.make
+CMakeFiles/Task2.dir/Additional_functions/random.cpp.obj: ../Additional_functions/random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Task2.dir/Additional_functions/random.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\Additional_functions\random.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\Additional_functions\random.cpp
+
+CMakeFiles/Task2.dir/Additional_functions/random.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task2.dir/Additional_functions/random.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Task2\Additional_functions\random.cpp > CMakeFiles\Task2.dir\Additional_functions\random.cpp.i
+
+CMakeFiles/Task2.dir/Additional_functions/random.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/Additional_functions/random.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\Additional_functions\random.cpp -o CMakeFiles\Task2.dir\Additional_functions\random.cpp.s
+
+CMakeFiles/Task2.dir/Data_structures/container.cpp.obj: CMakeFiles/Task2.dir/flags.make
+CMakeFiles/Task2.dir/Data_structures/container.cpp.obj: ../Data_structures/container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Task2.dir/Data_structures/container.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\Data_structures\container.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\Data_structures\container.cpp
+
+CMakeFiles/Task2.dir/Data_structures/container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task2.dir/Data_structures/container.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Task2\Data_structures\container.cpp > CMakeFiles\Task2.dir\Data_structures\container.cpp.i
+
+CMakeFiles/Task2.dir/Data_structures/container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/Data_structures/container.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\Data_structures\container.cpp -o CMakeFiles\Task2.dir\Data_structures\container.cpp.s
+
 CMakeFiles/Task2.dir/main.cpp.obj: CMakeFiles/Task2.dir/flags.make
 CMakeFiles/Task2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task2.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Task2.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\main.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\main.cpp
 
 CMakeFiles/Task2.dir/main.cpp.i: cmake_force
@@ -78,38 +156,35 @@ CMakeFiles/Task2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\main.cpp -o CMakeFiles\Task2.dir\main.cpp.s
 
-CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj: CMakeFiles/Task2.dir/flags.make
-CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj: ../Structures/Vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task2.dir\Structures\Vehicle.cpp.obj -c C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\Vehicle.cpp
-
-CMakeFiles/Task2.dir/Structures/Vehicle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task2.dir/Structures/Vehicle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\Vehicle.cpp > CMakeFiles\Task2.dir\Structures\Vehicle.cpp.i
-
-CMakeFiles/Task2.dir/Structures/Vehicle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task2.dir/Structures/Vehicle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dm1tr\Desktop\AoCS\Task2\Structures\Vehicle.cpp -o CMakeFiles\Task2.dir\Structures\Vehicle.cpp.s
-
 # Object files for target Task2
 Task2_OBJECTS = \
-"CMakeFiles/Task2.dir/main.cpp.obj" \
-"CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj"
+"CMakeFiles/Task2.dir/Structures/vehicle.cpp.obj" \
+"CMakeFiles/Task2.dir/Structures/bus.cpp.obj" \
+"CMakeFiles/Task2.dir/Structures/truck.cpp.obj" \
+"CMakeFiles/Task2.dir/Structures/car.cpp.obj" \
+"CMakeFiles/Task2.dir/Additional_functions/random.cpp.obj" \
+"CMakeFiles/Task2.dir/Data_structures/container.cpp.obj" \
+"CMakeFiles/Task2.dir/main.cpp.obj"
 
 # External object files for target Task2
 Task2_EXTERNAL_OBJECTS =
 
-Task2.exe: CMakeFiles/Task2.dir/main.cpp.obj
-Task2.exe: CMakeFiles/Task2.dir/Structures/Vehicle.cpp.obj
-Task2.exe: CMakeFiles/Task2.dir/build.make
-Task2.exe: CMakeFiles/Task2.dir/linklibs.rsp
-Task2.exe: CMakeFiles/Task2.dir/objects1.rsp
-Task2.exe: CMakeFiles/Task2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Task2.exe"
+../bin/Task2.exe: CMakeFiles/Task2.dir/Structures/vehicle.cpp.obj
+../bin/Task2.exe: CMakeFiles/Task2.dir/Structures/bus.cpp.obj
+../bin/Task2.exe: CMakeFiles/Task2.dir/Structures/truck.cpp.obj
+../bin/Task2.exe: CMakeFiles/Task2.dir/Structures/car.cpp.obj
+../bin/Task2.exe: CMakeFiles/Task2.dir/Additional_functions/random.cpp.obj
+../bin/Task2.exe: CMakeFiles/Task2.dir/Data_structures/container.cpp.obj
+../bin/Task2.exe: CMakeFiles/Task2.dir/main.cpp.obj
+../bin/Task2.exe: CMakeFiles/Task2.dir/build.make
+../bin/Task2.exe: CMakeFiles/Task2.dir/linklibs.rsp
+../bin/Task2.exe: CMakeFiles/Task2.dir/objects1.rsp
+../bin/Task2.exe: CMakeFiles/Task2.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dm1tr\Desktop\AoCS\Task2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ..\bin\Task2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Task2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Task2.dir/build: Task2.exe
+CMakeFiles/Task2.dir/build: ../bin/Task2.exe
 .PHONY : CMakeFiles/Task2.dir/build
 
 CMakeFiles/Task2.dir/clean:

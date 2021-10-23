@@ -26,4 +26,4 @@ set(SOURCE_FILES
         Data_structures/container.cpp
         main.cpp)
 
-add_executable(AoCS ${SOURCE_FILES})
+add_executable(Task2 ${SOURCE_FILES})

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(AoCS)
+project(Task1)
 
 set(BUILD_DIR "${CMAKE_BINARY_DIR}")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${BUILD_DIR}/../bin")
