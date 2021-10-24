@@ -1,0 +1,3 @@
+Filled container:
+Container contains 1 elements
+0: It is car: maximal speed = 192, tank volume =  72, consumption = 11.012054. maximal range = 653.828950 

@@ -1,0 +1,3 @@
+Filled container:
+Container contains 1 elements
+0: It is bus: maximal passengers = 37, tank volume = 128, consumption = 28.040529. maximal range = 456.482116 

@@ -697,7 +697,7 @@ Container contains 10000 elements
 694: It is car: maximal speed = 115, tank volume =  73, consumption = 18.862850. maximal range = 387.004085 
 695: It is bus: maximal passengers = 57, tank volume = 108, consumption = 27.902646. maximal range = 387.060066 
 696: It is car: maximal speed = 226, tank volume =  81, consumption = 20.898709. maximal range = 387.583750 
-697: It is car: maximal speed = 227, tank volume =  81, consumption = 20.888272. maximal range = 387.777409 
+697: It is car: maximal speed = 227, tank volume =  81, consumption = 20.888272. maximal range = 387.777404 
 698: It is car: maximal speed = 236, tank volume =  93, consumption = 23.981780. maximal range = 387.794401 
 699: It is bus: maximal passengers = 50, tank volume = 96, consumption = 24.742882. maximal range = 387.990372 
 700: It is car: maximal speed = 110, tank volume =  74, consumption = 19.063478. maximal range = 388.176806 
@@ -4632,8 +4632,8 @@ Container contains 10000 elements
 4629: It is bus: maximal passengers = 34, tank volume = 137, consumption = 16.122745. maximal range = 849.731234 
 4630: It is car: maximal speed = 133, tank volume =  74, consumption = 8.706748. maximal range = 849.915491 
 4631: It is car: maximal speed = 144, tank volume =  125, consumption = 14.703574. maximal range = 850.133444 
-4632: It is bus: maximal passengers = 61, tank volume = 229, consumption = 26.934721. maximal range = 850.203720 
-4633: It is bus: maximal passengers = 11, tank volume = 229, consumption = 26.934721. maximal range = 850.203720 
+4632: It is bus: maximal passengers = 11, tank volume = 229, consumption = 26.934721. maximal range = 850.203720 
+4633: It is bus: maximal passengers = 61, tank volume = 229, consumption = 26.934721. maximal range = 850.203720 
 4634: It is bus: maximal passengers = 43, tank volume = 240, consumption = 28.225654. maximal range = 850.290307 
 4635: It is truck: maximal weight = 1501, tank volume = 279, consumption = 32.811670. maximal range = 850.307223 
 4636: It is car: maximal speed = 232, tank volume =  126, consumption = 14.810846. maximal range = 850.727906 

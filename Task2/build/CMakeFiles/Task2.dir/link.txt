@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Task2.dir/Structures/vehicle.cpp.o CMakeFiles/Task2.dir/Structures/bus.cpp.o CMakeFiles/Task2.dir/Structures/truck.cpp.o CMakeFiles/Task2.dir/Structures/car.cpp.o CMakeFiles/Task2.dir/Additional_functions/random.cpp.o CMakeFiles/Task2.dir/Data_structures/container.cpp.o CMakeFiles/Task2.dir/main.cpp.o  -o ../bin/Task2 
